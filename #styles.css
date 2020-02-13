@@ -1,0 +1,19 @@
+
+@import url(´https://fonts.googleapis.com/css?family=raliway:400,700&display=swap)
+
+body {
+    font-family: raleway, sans-serif;
+}
+header {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: flex-end; /*also allowed: flex-start center height: 500px;*/
+
+}
+header nav ul li {
+    display: inline-block;
+    margin: 5px
+}
+header nav ul li a {
+    color: #ffffff;
+} 
